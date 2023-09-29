@@ -19,13 +19,14 @@ HTML & CSS
 
 ## ⏰ ÉTAT D'AVANCEMENT
 
-- En cours 🙃
+En cours 🙃 Je viens de finir la maquette, j'attaque !
 
 ## 🔗 LIEN VERS LE PROJET
 
-![Lien vers mon projet](https://evalambert.github.io/cv/)
+![Lien vers mon projet](https://evalambert.github.io/vcard/)
 
-## 👀 APERÇU DU PROJET
+## 👀 MAQUETTE DU PROJET
 
-![Screen shot version Desktop](img/screen-1.jpg)
-![Screen shot version Desktop](img/screen-2.jpg)
+![Screen shot version Desktop](img/1.jpg)
+![Screen shot version Desktop](img/2.jpg)
+![Screen shot version Desktop](img/3.jpg)
