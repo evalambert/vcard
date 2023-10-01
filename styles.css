@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "agrandir";
+    src:
+      local("agrandir"),
+      url("agrandir.ttf") format("truetype"),
+}
+body{
+    font-family: "agrandir";
+}
