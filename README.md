@@ -23,7 +23,7 @@ En cours 🙃 Je viens de finir la maquette, j'attaque !
 
 ## 🔗 LIEN VERS LE PROJET
 
-![Lien vers mon projet](https://evalambert.github.io/vcard/)
+[Lien vers mon projet](https://evalambert.github.io/vcard/)
 
 ## 👀 MAQUETTE DU PROJET
 
