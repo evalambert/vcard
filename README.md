@@ -1,9 +1,13 @@
 # 📇 V CARD
 
+## 🔗 LIEN VERS LE PROJET
+
+[https://evalambert.github.io/vcard/](https://evalambert.github.io/vcard/)
+
 ## 🎯 OBJECTIFS
 
 - Html sémantique
-- positionnement CSS
+- Positionnement CSS
 
 ## 👉 CONSIGNES
 
@@ -19,11 +23,7 @@ HTML & CSS
 
 ## ⏰ ÉTAT D'AVANCEMENT
 
-En cours 🙃 Je viens de finir la maquette, j'attaque !
-
-## 🔗 LIEN VERS LE PROJET
-
-[Lien vers mon projet](https://evalambert.github.io/vcard/)
+Terminé 🙃
 
 ## 👀 MAQUETTE DU PROJET
 
