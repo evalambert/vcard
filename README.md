@@ -1,4 +1,4 @@
-# 📇 V CARD
+# 📇 VCARD
 
 ## 🔗 LIEN VERS LE PROJET
 
@@ -27,6 +27,6 @@ Terminé 🙃
 
 ## 👀 MAQUETTE DU PROJET
 
-![Screen shot version Desktop](img/1.jpg)
-![Screen shot version Desktop](img/2.jpg)
-![Screen shot version Desktop](img/3.jpg)
+![Screen shot version Desktop](src/assets/img/1.jpg)
+![Screen shot version Desktop](src/assets/img/2.jpg)
+![Screen shot version Desktop](src/assets/img/3.jpg)
