@@ -27,6 +27,6 @@ Terminé 🙃
 
 ## 👀 MAQUETTE DU PROJET
 
-![Screen shot version Desktop](img/1.jpg)
-![Screen shot version Desktop](img/2.jpg)
-![Screen shot version Desktop](img/3.jpg)
+![Screen shot version Desktop](src/img/1.jpg)
+![Screen shot version Desktop](src/img/2.jpg)
+![Screen shot version Desktop](src/img/3.jpg)
