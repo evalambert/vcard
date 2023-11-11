@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,26 +6,42 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+      <header>
+        <h1>Eva Lambert</h1>
+      </header>
+
+      <main>
+        <p> 
+          <span class="font-graphic one">(</span> 
+          <span class="font-web">Web development</span>
+          <br />
+          <span class="font-graphic two">Graphic design )</span>
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      </main>
+
+      <footer>
+        <address>
+          <div class="mobile wrap-img">
+            <img src="img/4.jpg" alt="croix"/>
+          </div>
+
+          <div class="container">
+            <p>+33 6 456 678 879</p>
+            <div class="desktop wrap-img">
+              <img  src="img/4.jpg" alt="croix"/>
+            </div>
+            <a href="mailto:lamberteva@hotmail.fr">lamberteva<span class="font-carta">@</span>hotmail.fr</a>
+            <div class="desktop wrap-img">
+              <img  src="img/4.jpg" alt="croix"/>
+            </div>
+            <a href="https://www.greta-oto.xyz/">www.greta-oto.xyz</a>
+          </div>
+
+          <div class="mobile wrap-img">
+            <img  src="img/4.jpg" alt="croix"/>
+          </div>
+        </address>
+      </footer>
     </>
   )
 }
