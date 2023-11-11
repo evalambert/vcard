@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "pnpm vite",
-    "build": "vite build",
     "deploy": "pnpm run build && gh-pages -d dist",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "react": "^18.2.0",
