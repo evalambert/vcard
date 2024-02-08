@@ -1,0 +1,194 @@
+/* FONT ////////////////// */
+@font-face {
+  font-family: "agrandir";
+  src: url("assets/font/agrandir.ttf") format("truetype");
+}
+@font-face {
+  font-family: "carta";
+  src: url("assets/font/carta.otf") format("opentype");
+}
+@font-face {
+  font-family: "fk";
+  src: url("assets/font/fk.ttf") format("truetype");
+}
+
+/* BODY ////////////////// */
+body {
+  height: 100vh;
+  font-family: "agrandir", Helvetica, sans-serif;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* HEADER ////////////////// */
+header h1 {
+  font-family: "agrandir", Helvetica, sans-serif;
+  font-size: 2.45rem;
+  text-transform: uppercase;
+  padding-bottom: 10%;
+  margin: 10px;
+}
+
+/* MAIN ////////////////// */
+main {
+  text-align: right;
+  line-height: 1.55rem;
+}
+
+/* FONT */
+main .font-graphic {
+  font-family: "carta", "Times New Roman", Times, serif;
+  font-size: 3.1rem;
+}
+main .font-graphic.one {
+  padding-right: 30px;
+}
+main .font-graphic.two {
+  padding-right: 20px;
+}
+main .font-web {
+  font-family: "fk", Helvetica, sans-serif;
+  padding-right: 50px;
+  font-size: 2.2rem;
+}
+
+/* FOOTER ////////////////// */
+footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 0.8rem;
+}
+/* FLEXBOX */
+footer address {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* IMG */
+footer img {
+  width: 100%;
+  height: auto;
+}
+footer .wrap-img {
+  width: 40px;
+}
+/* LIENS */
+
+footer a:hover {
+  color: blueviolet;
+}
+
+/* @ */
+/* 
+footer span.font-carta {
+  font-family: "carta", "Times New Roman", Times, serif;
+  font-size: 1.8rem;
+}
+footer .container > p:nth-child(1) {
+  line-height: 0.6rem;
+} */
+
+/* DESKTOP */
+footer .desktop {
+  display: none;
+}
+main .font-graphic {
+  font-family: "carta", "Times New Roman", Times, serif;
+  font-size: 3.1rem;
+}
+
+/* MQ ////////////////// */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 5rem;
+    padding-bottom: 0;
+    margin: 10px;
+  }
+  main p {
+    line-height: 2.6rem;
+  }
+  main .font-graphic {
+    font-size: 6rem;
+    padding: 15px;
+  }
+  main .font-graphic.one {
+    padding-right: 62px;
+  }
+  main .font-graphic.two {
+    padding-right: 20px;
+  }
+  main .font-web {
+    padding-right: 15%;
+    font-size: 4.5rem;
+  }
+  footer .mobile {
+    display: none;
+  }
+  footer .desktop {
+    display: block;
+  }
+  footer address {
+    display: block;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+/* big landscape tablets, laptops, and desktops ///////////////////// */
+@media (min-width: 1025px) {
+  header h1 {
+    font-size: 6.5rem;
+  }
+  main .font-graphic {
+    font-size: 7.5rem;
+    padding: 15px;
+  }
+  main .font-web {
+    padding-right: 15%;
+    font-size: 6.5rem;
+  }
+}
+/* hi-res laptops and desktops ///////////////////// */
+@media (min-width: 1281px) {
+  header h1 {
+    font-size: 8rem;
+  }
+  main .font-graphic {
+    font-size: 9.5rem;
+    padding: 15px;
+  }
+  main .font-web {
+    padding-right: 15%;
+    font-size: 8.5rem;
+  }
+}
+/* ///////////////////// */
+@media (min-width: 1400px) {
+  header h1 {
+    font-size: 9.5rem;
+  }
+  main p {
+    line-height: 3rem;
+  }
+  main .font-graphic {
+    font-size: 12.5rem;
+    padding: 15px;
+  }
+  main .font-web {
+    padding-right: 15%;
+    font-size: 10.5rem;
+  }
+}
