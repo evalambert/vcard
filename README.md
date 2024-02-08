@@ -11,15 +11,16 @@
 
 ## 👉 CONSIGNES
 
-- Créer un repository
-- Créer une Vcard en HTML et CSS
-- Utiliser le positionnement en CSS
-- Commiter and pusher
-- Déployer sur une page Github
+- First React project
+- Positionnement CSS
+- Commit & push
+- GitHub Pages deploy
 
 ## 🌐 LANGUAGE UTILISÉ
 
-HTML & CSS
+- React
+- HTML & CSS
+- Gh-pages
 
 ## ⏰ ÉTAT D'AVANCEMENT
 
@@ -29,4 +30,11 @@ Terminé 🙃
 
 ![Screen shot version Desktop](src/assets/img/1.jpg)
 ![Screen shot version Desktop](src/assets/img/2.jpg)
-![Screen shot version Desktop](src/assets/img/3.jpg)
+
+## 💾 INSTALLATION
+
+```js
+npm i
+npm run dev
+npm run deploy
+```
